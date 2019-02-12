@@ -5,8 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
 </head>
 <body>
-    <h1>Personal Portfolio</h1>
+    <div id="page-header">
+        <h1>Personal Portfolio</h1>
+    </div>
+    <div id="page-discription">
+        <p>This page serves as platform to access simple snippets of code. The focus of this site will be web technologies. Many of the front-end code snippets that are be available here are already incorporated into the site layout. This will help you to get an idea of how the code preforms <i>"in the wild."</i><br><br>Each snippet has the source code available aswell as a description of its function.<br><br>Enjoy the experience!</p>
+    </div>
+    <div >
+        <div id="project1" class="project">
+            <p>Simple Modal</p>
+            <a href="" class="download">Download Sourcecode</a>
+            <button id="modalBtn" class="button" id="">Description</button>
+        </div>
+        <div id="simpleModal" class="modal">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <span id="closeBtn">&times;</span>
+                            <h2>Modal Header</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Quae cumque pariatur provident alias iste sequi aliquid! 
+                            Aperiam dolorum corrupti inventore impedit asperiores 
+                            eligendi nulla itaque harum enim. Nemo, necessitatibus 
+                            reprehenderit!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <h3>Modal Footer</h3>
+                        </div>
+                </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
